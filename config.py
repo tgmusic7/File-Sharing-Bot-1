@@ -16,7 +16,7 @@ DB_NAME = os.environ.get("DB_NAME", "filesharexbot")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002394197305"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002440376099"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "3600")) # auto delete in seconds
